@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Sensor</string>
+    <string name="action_settings">Settings</string>
+    <string name="loginText">Min</string>
+    <string name="senhaText">Max</string>
+    <string name="btnLogarText">Monitoring</string>
+    <string name="title_activity_show_tasks">Tasks of the day</string>
+    <string name="usuarioSenhaInvalido">Invalid Username and/or Password</string>
+    <string name="tarefaSemEnderecoVinculado">The selected task has no bound address</string>
+    <string name="title_activity_ctivity_create_task">Create Task</string>
+    <string name="title_activity_create_task">Create Task</string>
+    <string name="title_activity_see_address">Map</string>
+    <string name="menuCriarTarefa">Create Task</string>
+    <string name="menuVerTarefas">Get Tasks</string>
+    <string name="menuSair">Exit</string>
+
+    <string name="registroCadastradoSucesso">As registered with Success</string>
+    <string name="registroCadastradoErro">Error saving data</string>
+    <string name="camposObrigatoriosNaoInformados">Please fill in all fields</string>
+
+    <string name="registroDataInvalida">invalid date, the correct format is day/month/year (dd/mm/yyyy)</string>
+    <string name="registroHoraInvalida">Invalid time , the correct format is hour : minute: second (HH:mm)</string>
+
+    <string name="btnCadastrarTarefaText">Save</string>
+    <string name="txtNomeTarefa">Name</string>
+    <string name="txtDataTarefa">Date</string>
+    <string name="txtHoraTarefa">Time</string>
+    <string name="txtEnderecoTarefa">Address</string>
+    <string name="txtDescricaoTarefa">Description</string>
+
+    <string name="rdRepetirDiariamente">Daily Repeat</string>
+    <string name="rdNaoRepetir">Not Repeat</string>
+
+    <string name="conexaoInativa">The application can not take any action without internet access, please, enable your connection or check your internet status</string>
+</resources>

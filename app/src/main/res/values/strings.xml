@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Sensor</string>
+    <string name="action_settings">Settings</string>
+    <string name="loginText">Min</string>
+    <string name="senhaText">Máx</string>
+    <string name="btnLogarText">Monitorar</string>
+    <string name="title_activity_show_tasks">Tarefas do dia</string>
+    <string name="usuarioSenhaInvalido">Usuário e/ou senha inválido(s)</string>
+    <string name="tarefaSemEnderecoVinculado">A tarefa selecionada não possui nenhum endereço vinculado</string>
+    <string name="title_activity_ctivity_create_task">Criar Tarefa</string>
+    <string name="title_activity_create_task">Criar Tarefa</string>
+    <string name="title_activity_see_address">Map</string>
+    <string name="menuCriarTarefa">Criar Tarefa</string>
+    <string name="menuVerTarefas">Ver Tarefas</string>
+    <string name="menuSair">Sair</string>
+
+    <string name="registroCadastradoSucesso">Registro cadastrado com sucesso</string>
+    <string name="registroCadastradoErro">Erro ao cadastrar registro</string>
+    <string name="camposObrigatoriosNaoInformados">Favor preencher todos os campos</string>
+
+    <string name="btnCadastrarTarefaText">Salvar</string>
+    <string name="txtNomeTarefa">Nome</string>
+    <string name="txtDataTarefa">Data</string>
+    <string name="txtHoraTarefa">Hora</string>
+    <string name="txtEnderecoTarefa">Endereço</string>
+    <string name="txtDescricaoTarefa">Descrição</string>
+    <string name="registroDataInvalida">Data inválida,o formato correto é dia/mês/ano (dd/mm/yyyy)</string>
+    <string name="registroHoraInvalida">Hora inválida,o formato correto é hora:minuto:segundo (HH:mm)</string>
+
+    <string name="rdRepetirDiariamente">Repetir Diariamente</string>
+    <string name="rdNaoRepetir">Não Repetir</string>
+
+    <string name="conexaoInativa">O aplicativo não poderá efetuar nenhuma ação sem o acesso a internet, favor habilitar sua conexão ou verificar o status de sua internet</string>
+    <string name="_20">20</string>
+    <string name="_100">100</string>
+
+</resources>

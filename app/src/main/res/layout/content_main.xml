@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="2"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingTop="90dip">
+
+    <TableRow android:layout_width="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Temperatura Atual"
+            android:id="@+id/labelTemperatura"
+            android:padding="3dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0°"
+            android:id="@+id/txtTemperatura"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Limite Sugerido"
+            android:id="@+id/labelLimiteSugerida"
+            android:padding="3dip"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0°"
+            android:id="@+id/txtLimiteSugerido"
+            android:gravity="right"
+            android:padding="3dip"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Limite Definido"
+            android:id="@+id/labelLimiteIDefinido"
+            android:padding="3dip"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0°"
+            android:id="@+id/txtLimiteDefinido"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monitor Ligado?"
+            android:id="@+id/ckMonitor"
+            android:padding="3dip"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Definir Temperatura"
+            android:id="@+id/labelDefinirTemperatura"
+            android:padding="3dip"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/txtTemperaturaDefinida"
+            android:gravity="right"
+            android:padding="3dip"/>
+    </TableRow>
+    <TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parar Monitoramento"
+            android:visibility="visible"
+            android:id="@+id/btnParar"
+            android:padding="3dip"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Definir Temperatura"
+            android:id="@+id/btnDefinir"
+            android:padding="3dip"
+            android:layout_column="1" />
+    </TableRow>
+    <TableRow></TableRow>
+
+
+</TableLayout>
+
+
